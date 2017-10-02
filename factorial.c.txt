@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int n;
+long f;
+printf("\n enter n");
+scanf("%d",&n);
+f=0;
+for(i=1;i<=n;i++)
+f=f*i;
+printf("%ld",f);
+return(0);
+}
